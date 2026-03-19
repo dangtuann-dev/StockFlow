@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="StockFlow.BLL/StockFlow.BLL.csproj" />
+  <Project Path="StockFlow.DAL/StockFlow.DAL.csproj" />
+  <Project Path="StockFlow.DTO/StockFlow.DTO.csproj" />
+  <Project Path="StockFlow/StockFlow.csproj" />
+</Solution>
