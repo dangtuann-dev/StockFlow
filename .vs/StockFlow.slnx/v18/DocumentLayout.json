@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "D:\\Web Profile\\StockFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|d:\\web profile\\stockflow\\stockflow.dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|solutionrelative:stockflow.dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D64F8B73-E422-3C96-89AF-79A2C7D0F73C}|StockFlow.DTO\\StockFlow.DTO.csproj|d:\\web profile\\stockflow\\stockflow.dto\\stockflow.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D64F8B73-E422-3C96-89AF-79A2C7D0F73C}|StockFlow.DTO\\StockFlow.DTO.csproj|solutionrelative:stockflow.dto\\stockflow.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|d:\\web profile\\stockflow\\stockflow.dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|solutionrelative:stockflow.dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{660DAFA4-D7FB-49A7-A971-DCD4527DC768}|StockFlow.DAL\\StockFlow.DAL.csproj|d:\\web profile\\stockflow\\stockflow.dal\\stockflow.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{660DAFA4-D7FB-49A7-A971-DCD4527DC768}|StockFlow.DAL\\StockFlow.DAL.csproj|solutionrelative:stockflow.dal\\stockflow.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|d:\\web profile\\stockflow\\stockflow.dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|solutionrelative:stockflow.dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59904596-398F-5C46-78BD-7DFFF49338E7}|StockFlow.BLL\\StockFlow.BLL.csproj|d:\\web profile\\stockflow\\stockflow.bll\\stockflow.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59904596-398F-5C46-78BD-7DFFF49338E7}|StockFlow.BLL\\StockFlow.BLL.csproj|solutionrelative:stockflow.bll\\stockflow.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|d:\\web profile\\stockflow\\stockflow.dto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|solutionrelative:stockflow.dto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\web profile\\stockflow\\stockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|d:\\web profile\\stockflow\\stockflow.dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|solutionrelative:stockflow.dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|d:\\web profile\\stockflow\\stockflow.dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|solutionrelative:stockflow.dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|d:\\web profile\\stockflow\\stockflow.dto\\stockflow.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F0D37E9A-4075-4149-846A-E24AA5A8DE80}|StockFlow.DTO\\StockFlow.DTO.csproj|solutionrelative:stockflow.dto\\stockflow.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\web profile\\stockflow\\stockflow\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\web profile\\stockflow\\stockflow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -42,89 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderDetailDTO.cs",
-              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\OrderDetailDTO.cs",
-              "RelativeDocumentMoniker": "StockFlow.DTO\\OrderDetailDTO.cs",
-              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\OrderDetailDTO.cs",
-              "RelativeToolTip": "StockFlow.DTO\\OrderDetailDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T03:02:28.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderDTO.cs",
-              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\OrderDTO.cs",
-              "RelativeDocumentMoniker": "StockFlow.DTO\\OrderDTO.cs",
-              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\OrderDTO.cs",
-              "RelativeToolTip": "StockFlow.DTO\\OrderDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T03:02:17.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerDTO.cs",
-              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\CustomerDTO.cs",
-              "RelativeDocumentMoniker": "StockFlow.DTO\\CustomerDTO.cs",
-              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\CustomerDTO.cs",
-              "RelativeToolTip": "StockFlow.DTO\\CustomerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T03:02:05.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductDTO.cs",
-              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\ProductDTO.cs",
-              "RelativeDocumentMoniker": "StockFlow.DTO\\ProductDTO.cs",
-              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\ProductDTO.cs",
-              "RelativeToolTip": "StockFlow.DTO\\ProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T03:01:51.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryDTO.cs",
-              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\CategoryDTO.cs",
-              "RelativeDocumentMoniker": "StockFlow.DTO\\CategoryDTO.cs",
-              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\CategoryDTO.cs",
-              "RelativeToolTip": "StockFlow.DTO\\CategoryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T03:01:39.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\UserDTO.cs",
-              "RelativeDocumentMoniker": "StockFlow.DTO\\UserDTO.cs",
-              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\UserDTO.cs",
-              "RelativeToolTip": "StockFlow.DTO\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T03:01:15.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "StockFlow.DTO",
               "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.DTO\\StockFlow.DTO.csproj",
               "RelativeDocumentMoniker": "StockFlow.DTO\\StockFlow.DTO.csproj",
@@ -132,20 +46,72 @@
               "RelativeToolTip": "StockFlow.DTO\\StockFlow.DTO.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-19T03:00:25.05Z",
+              "WhenOpened": "2026-03-19T06:08:00.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "StockFlow.DAL",
+              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.DAL\\StockFlow.DAL.csproj",
+              "RelativeDocumentMoniker": "StockFlow.DAL\\StockFlow.DAL.csproj",
+              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow.DAL\\StockFlow.DAL.csproj",
+              "RelativeToolTip": "StockFlow.DAL\\StockFlow.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-19T06:07:59.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockFlow.BLL",
+              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj",
+              "RelativeDocumentMoniker": "StockFlow.BLL\\StockFlow.BLL.csproj",
+              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj",
+              "RelativeToolTip": "StockFlow.BLL\\StockFlow.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-19T06:07:58.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow\\Form1.cs",
               "RelativeDocumentMoniker": "StockFlow\\Form1.cs",
               "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow\\Form1.cs [Design]",
               "RelativeToolTip": "StockFlow\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T02:48:52.879Z",
+              "WhenOpened": "2026-03-19T06:07:53.901Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "StockFlow\\Form1.Designer.cs",
+              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow\\Form1.Designer.cs",
+              "RelativeToolTip": "StockFlow\\Form1.Designer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T05:59:45.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Web Profile\\StockFlow\\StockFlow\\Program.cs",
+              "RelativeDocumentMoniker": "StockFlow\\Program.cs",
+              "ToolTip": "D:\\Web Profile\\StockFlow\\StockFlow\\Program.cs",
+              "RelativeToolTip": "StockFlow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T05:24:43.971Z",
+              "EditorCaption": ""
             }
           ]
         }

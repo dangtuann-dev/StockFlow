@@ -1,0 +1,12 @@
+D:\Web Profile\StockFlow\StockFlow.DTO\bin\Debug\net10.0\StockFlow.DTO.deps.json
+D:\Web Profile\StockFlow\StockFlow.DTO\bin\Debug\net10.0\StockFlow.DTO.dll
+D:\Web Profile\StockFlow\StockFlow.DTO\bin\Debug\net10.0\StockFlow.DTO.pdb
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\StockFlow.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\StockFlow.DTO.AssemblyInfoInputs.cache
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\StockFlow.DTO.AssemblyInfo.cs
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\StockFlow.DTO.csproj.CoreCompileInputs.cache
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\StockFlow.DTO.sourcelink.json
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\StockFlow.DTO.dll
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\refint\StockFlow.DTO.dll
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\StockFlow.DTO.pdb
+D:\Web Profile\StockFlow\StockFlow.DTO\obj\Debug\net10.0\ref\StockFlow.DTO.dll

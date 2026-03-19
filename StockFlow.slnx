@@ -2,5 +2,5 @@
   <Project Path="StockFlow.BLL/StockFlow.BLL.csproj" />
   <Project Path="StockFlow.DAL/StockFlow.DAL.csproj" />
   <Project Path="StockFlow.DTO/StockFlow.DTO.csproj" />
-  <Project Path="StockFlow/StockFlow.csproj" />
+  <Project Path="StockFlow/StockFlow.csproj" Id="312975fa-c7cd-4a99-a2ac-196ee57d0df9" />
 </Solution>
