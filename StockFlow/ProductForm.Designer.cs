@@ -28,34 +28,51 @@ namespace StockFlow
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lblProductModule = new System.Windows.Forms.Label();
+            this.pnlHeader = new System.Windows.Forms.Panel();
             this.btnX = new System.Windows.Forms.Button();
+            this.lblProductModule = new System.Windows.Forms.Label();
             this.lblProductName = new System.Windows.Forms.Label();
             this.lblQuantity = new System.Windows.Forms.Label();
             this.lblDescription = new System.Windows.Forms.Label();
             this.lblCategory = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtProductName = new System.Windows.Forms.TextBox();
             this.txtQty = new System.Windows.Forms.TextBox();
             this.txtDesc = new System.Windows.Forms.TextBox();
             this.txtCategory = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.pnlHeader.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlHeader
             // 
-            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel1.Controls.Add(this.btnX);
-            this.panel1.Controls.Add(this.lblProductModule);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Enabled = false;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(788, 40);
-            this.panel1.TabIndex = 0;
+            this.pnlHeader.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pnlHeader.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlHeader.Controls.Add(this.btnX);
+            this.pnlHeader.Controls.Add(this.lblProductModule);
+            this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlHeader.Enabled = false;
+            this.pnlHeader.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(783, 50);
+            this.pnlHeader.TabIndex = 0;
+            // 
+            // btnX
+            // 
+            this.btnX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnX.BackColor = System.Drawing.Color.Red;
+            this.btnX.FlatAppearance.BorderSize = 0;
+            this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnX.ForeColor = System.Drawing.Color.White;
+            this.btnX.Location = new System.Drawing.Point(759, 0);
+            this.btnX.Name = "btnX";
+            this.btnX.Size = new System.Drawing.Size(22, 23);
+            this.btnX.TabIndex = 1;
+            this.btnX.Text = "X";
+            this.btnX.UseVisualStyleBackColor = false;
             // 
             // lblProductModule
             // 
@@ -67,19 +84,6 @@ namespace StockFlow
             this.lblProductModule.Size = new System.Drawing.Size(148, 16);
             this.lblProductModule.TabIndex = 0;
             this.lblProductModule.Text = "PRODUCT MODULE";
-            // 
-            // btnX
-            // 
-            this.btnX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnX.BackColor = System.Drawing.Color.Red;
-            this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnX.ForeColor = System.Drawing.Color.White;
-            this.btnX.Location = new System.Drawing.Point(766, 0);
-            this.btnX.Name = "btnX";
-            this.btnX.Size = new System.Drawing.Size(22, 23);
-            this.btnX.TabIndex = 1;
-            this.btnX.Text = "X";
-            this.btnX.UseVisualStyleBackColor = false;
             // 
             // lblProductName
             // 
@@ -118,18 +122,20 @@ namespace StockFlow
             this.lblCategory.TabIndex = 4;
             this.lblCategory.Text = "Category :";
             // 
-            // txtName
+            // txtProductName
             // 
-            this.txtName.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.txtName.Location = new System.Drawing.Point(261, 102);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(300, 22);
-            this.txtName.TabIndex = 5;
-            this.txtName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtProductName.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.txtProductName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtProductName.Location = new System.Drawing.Point(261, 102);
+            this.txtProductName.Name = "txtProductName";
+            this.txtProductName.Size = new System.Drawing.Size(300, 22);
+            this.txtProductName.TabIndex = 5;
+            this.txtProductName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtQty
             // 
             this.txtQty.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.txtQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtQty.Location = new System.Drawing.Point(261, 153);
             this.txtQty.Name = "txtQty";
             this.txtQty.Size = new System.Drawing.Size(300, 22);
@@ -138,6 +144,7 @@ namespace StockFlow
             // txtDesc
             // 
             this.txtDesc.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.txtDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDesc.Location = new System.Drawing.Point(261, 206);
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.Size = new System.Drawing.Size(300, 22);
@@ -146,6 +153,7 @@ namespace StockFlow
             // txtCategory
             // 
             this.txtCategory.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.txtCategory.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCategory.Location = new System.Drawing.Point(261, 255);
             this.txtCategory.Name = "txtCategory";
             this.txtCategory.Size = new System.Drawing.Size(300, 22);
@@ -189,26 +197,27 @@ namespace StockFlow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(788, 508);
+            this.ClientSize = new System.Drawing.Size(783, 508);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtCategory);
             this.Controls.Add(this.txtDesc);
             this.Controls.Add(this.txtQty);
-            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtProductName);
             this.Controls.Add(this.lblCategory);
             this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.lblQuantity);
             this.Controls.Add(this.lblProductName);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlHeader);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProductForm";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,14 +225,14 @@ namespace StockFlow
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlHeader;
         private System.Windows.Forms.Label lblProductModule;
         private System.Windows.Forms.Button btnX;
         private System.Windows.Forms.Label lblProductName;
         private System.Windows.Forms.Label lblQuantity;
         private System.Windows.Forms.Label lblDescription;
         private System.Windows.Forms.Label lblCategory;
-        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtProductName;
         private System.Windows.Forms.TextBox txtQty;
         private System.Windows.Forms.TextBox txtDesc;
         private System.Windows.Forms.TextBox txtCategory;

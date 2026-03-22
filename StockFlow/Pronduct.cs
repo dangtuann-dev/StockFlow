@@ -71,5 +71,15 @@ namespace StockFlow
         {
 
         }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
