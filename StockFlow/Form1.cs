@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StockFlow
 {
-    public partial class UserModule : Form
+    public partial class Form1 : Form
     {
-        public UserModule()
+        public Form1()
         {
             InitializeComponent();
         }
