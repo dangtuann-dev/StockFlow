@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = StockFlow.BLL
-build_property.ProjectDir = D:\Web Profile\StockFlow\StockFlow.BLL\
+build_property.ProjectDir = D:\QLSanPham\StockFlow\StockFlow.BLL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
