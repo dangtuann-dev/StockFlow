@@ -1,0 +1,16 @@
+*   dangtuann-dev (2 hours ago) : Merge branch NguyenDucDuy, resolve conflicts and clean up bin/obj folders
+[31m|[m[32m\[m  
+[31m|[m *   dangtuann-dev (3 hours ago) : Resolve merge conflicts
+[31m|[m [33m|[m[34m\[m  
+[31m|[m * [34m|[m dangtuann-dev (3 hours ago) : xóa các thư mục kh cần thiết
+[31m|[m * [34m|[m NguyenDucDuy (12 hours ago) : xóa thư mục bin và obj - NguyenDucDuy
+[31m|[m * [34m|[m NguyenDucDuy (12 hours ago) : Sửa lại phần giao diện quản lý sản phẩm, thêm sản phẩm, thêm user - NguyenDucDuy
+* [34m|[m [34m|[m Dang Tuann (3 hours ago) : Delete .vs directory
+* [34m|[m [34m|[m   Trương Gia Khang (3 hours ago) : Merge pull request #8 from dangtuann-dev/TruongGiaKhang
+[34m|[m[36m\[m [34m\[m [34m\[m  
+[34m|[m [36m|[m[34m_[m[34m|[m[34m/[m  
+[34m|[m[34m/[m[36m|[m [34m|[m   
+[34m|[m * [34m|[m Truong Gia Khang (4 hours ago) : thiết kế Trang Đăng Nhập , Thiết kế Trang Chủ , Thiết kế trang Nhập Danh Mục , Thiết kế trang Quản Lý Danh Mục , Thiết kế trang Nhập Khách Hàng , Thiết kế Trang Quản Lý Khách Hàng, Thiết kế trang Tạo Tài Khoản  -TruongGiaKhang
+* [36m|[m [34m|[m dangtuann-dev (15 hours ago) : thêm file gitinore
+* [36m|[m [34m|[m   dangtuann-dev (16 hours ago) : Merge branch 'main' of https://github.com/dangtuann-dev/StockFlow
+[1;31m|[m[1;32m\[m [36m\[m [34m\[m  
