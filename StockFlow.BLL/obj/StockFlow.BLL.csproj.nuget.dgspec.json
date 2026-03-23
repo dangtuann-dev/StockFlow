@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Web Profile\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj": {}
+    "D:\\DesktopApp\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj": {}
   },
   "projects": {
-    "D:\\Web Profile\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj": {
+    "D:\\DesktopApp\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web Profile\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj",
+        "projectUniqueName": "D:\\DesktopApp\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj",
         "projectName": "StockFlow.BLL",
-        "projectPath": "D:\\Web Profile\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Web Profile\\StockFlow\\StockFlow.BLL\\obj\\",
+        "projectPath": "D:\\DesktopApp\\StockFlow\\StockFlow.BLL\\StockFlow.BLL.csproj",
+        "packagesPath": "C:\\Users\\WAVU-X3\\.nuget\\packages\\",
+        "outputPath": "D:\\DesktopApp\\StockFlow\\StockFlow.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WAVU-X3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,12 +44,12 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
