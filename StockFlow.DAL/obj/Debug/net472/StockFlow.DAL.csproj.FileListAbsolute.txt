@@ -8,3 +8,13 @@ D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.csproj.Cor
 D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.sourcelink.json
 D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.dll
 D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.pdb
+D:\ASP\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DAL.dll
+D:\ASP\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DAL.pdb
+D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.csproj.AssemblyReference.cache
+D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.AssemblyInfoInputs.cache
+D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.AssemblyInfo.cs
+D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.csproj.CoreCompileInputs.cache
+D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.sourcelink.json
+D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.dll
+D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.pdb

@@ -18,3 +18,13 @@ D:\QLSanPham\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.csproj.CoreC
 D:\QLSanPham\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.sourcelink.json
 D:\QLSanPham\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.dll
 D:\QLSanPham\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.pdb
+D:\ASP\StockFlow\StockFlow.BLL\bin\Debug\net472\StockFlow.BLL.dll
+D:\ASP\StockFlow\StockFlow.BLL\bin\Debug\net472\StockFlow.BLL.pdb
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.csproj.AssemblyReference.cache
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.AssemblyInfoInputs.cache
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.AssemblyInfo.cs
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.csproj.CoreCompileInputs.cache
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.sourcelink.json
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.dll
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.pdb
