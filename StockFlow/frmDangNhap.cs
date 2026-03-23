@@ -1,3 +1,5 @@
+﻿
+using StockFlow.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -49,6 +51,15 @@ namespace StockFlow
         private void btnSignUp_Click(object sender, EventArgs e)
         {
 
+        }
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnSignUp_Click_1(object sender, EventArgs e)
+        {
+            
         }
     }
 }
