@@ -181,6 +181,7 @@ namespace StockFlow
             this.btnDelete.Size = new System.Drawing.Size(50, 50);
             this.btnDelete.TabIndex = 2;
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // frmDangNhap
             // 
@@ -193,6 +194,7 @@ namespace StockFlow
             this.Location = new System.Drawing.Point(346, 32);
             this.Name = "frmDangNhap";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmDangNhap_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picHome)).EndInit();

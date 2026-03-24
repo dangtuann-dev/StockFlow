@@ -91,5 +91,10 @@ namespace StockFlow
         {
             this.Close();
         }
+
+        private void btnDelete2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

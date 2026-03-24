@@ -182,13 +182,14 @@
             // 
             this.btnLogin.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnLogin.FlatAppearance.BorderSize = 2;
-            this.btnLogin.Font = new System.Drawing.Font(".VnAristote", 23.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 23.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(576, 693);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(171, 56);
             this.btnLogin.TabIndex = 10;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // frmTrangTaoTaiKhoan
             // 

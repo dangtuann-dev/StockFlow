@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "StockFlow.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "StockFlow.DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StockFlow.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StockFlow.DAL.dll": {}
+        }
+      },
+      "StockFlow.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/StockFlow.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StockFlow.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StockFlow.DAL/1.0.0": {
+      "type": "project",
+      "path": "../StockFlow.DAL/StockFlow.DAL.csproj",
+      "msbuildProject": "../StockFlow.DAL/StockFlow.DAL.csproj"
+    },
+    "StockFlow.DTO/1.0.0": {
+      "type": "project",
+      "path": "../StockFlow.DTO/StockFlow.DTO.csproj",
+      "msbuildProject": "../StockFlow.DTO/StockFlow.DTO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "StockFlow.DAL >= 1.0.0",
+      "StockFlow.DTO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vuchi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.BLL\\StockFlow.BLL.csproj",
+      "projectName": "StockFlow.BLL",
+      "projectPath": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.BLL\\StockFlow.BLL.csproj",
+      "packagesPath": "C:\\Users\\vuchi\\.nuget\\packages\\",
+      "outputPath": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.BLL\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vuchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {
+            "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.DAL\\StockFlow.DAL.csproj": {
+              "projectPath": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.DAL\\StockFlow.DAL.csproj"
+            },
+            "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.DTO\\StockFlow.DTO.csproj": {
+              "projectPath": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.DTO\\StockFlow.DTO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.200"
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

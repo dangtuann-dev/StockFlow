@@ -255,13 +255,16 @@
       <Name>StockFlow.BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\StockFlow.DAL\StockFlow.DAL.csproj">
-      <Project>{9d735999-1929-4db2-be69-c17628ad2d71}</Project>
+      <Project>{660dafa4-d7fb-49a7-a971-dcd4527dc768}</Project>
       <Name>StockFlow.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\StockFlow.DTO\StockFlow.DTO.csproj">
       <Project>{f0d37e9a-4075-4149-846a-e24aa5a8de80}</Project>
       <Name>StockFlow.DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.6.0.2\build\net462\Microsoft.Data.SqlClient.SNI.targets')" />

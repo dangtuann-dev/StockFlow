@@ -52,6 +52,23 @@ namespace StockFlow
         {
 
         }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmTrangChu f = new frmTrangChu();
+            f.ShowDialog();
+            this.Show();
         private void btnLogin_Click_1(object sender, EventArgs e)
         {
             
@@ -59,6 +76,10 @@ namespace StockFlow
 
         private void btnSignUp_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
+            frmTrangTaoTaiKhoan f = new frmTrangTaoTaiKhoan();
+            f.ShowDialog();
+            this.Show();
             
         }
     }

@@ -16,5 +16,13 @@ namespace StockFlow
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmTrangChu f = new frmTrangChu();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }
