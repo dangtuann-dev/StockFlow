@@ -1,3 +1,5 @@
+﻿
+using StockFlow.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -67,6 +69,9 @@ namespace StockFlow
             frmTrangChu f = new frmTrangChu();
             f.ShowDialog();
             this.Show();
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            
         }
 
         private void btnSignUp_Click_1(object sender, EventArgs e)
@@ -75,6 +80,7 @@ namespace StockFlow
             frmTrangTaoTaiKhoan f = new frmTrangTaoTaiKhoan();
             f.ShowDialog();
             this.Show();
+            
         }
     }
 }

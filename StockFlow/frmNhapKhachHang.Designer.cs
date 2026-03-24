@@ -61,6 +61,7 @@
             this.btnDelete2.TabIndex = 1;
             this.btnDelete2.UseVisualStyleBackColor = true;
             this.btnDelete2.Click += new System.EventHandler(this.btnDelete2_Click);
+            this.btnDelete2.Click += new System.EventHandler(this.btnX2_Click);
             // 
             // lblCustomerModule
             // 
@@ -102,6 +103,7 @@
             this.btnSave2.TabIndex = 5;
             this.btnSave2.Text = "SAVE";
             this.btnSave2.UseVisualStyleBackColor = false;
+            this.btnSave2.Click += new System.EventHandler(this.btnSave2_Click);
             // 
             // btnUpdate2
             // 
@@ -115,6 +117,7 @@
             this.btnUpdate2.TabIndex = 6;
             this.btnUpdate2.Text = "UPDATE";
             this.btnUpdate2.UseVisualStyleBackColor = false;
+            this.btnUpdate2.Click += new System.EventHandler(this.btnUpdate2_Click);
             // 
             // btnClear2
             // 
@@ -128,6 +131,7 @@
             this.btnClear2.TabIndex = 7;
             this.btnClear2.Text = "CLEAR";
             this.btnClear2.UseVisualStyleBackColor = false;
+            this.btnClear2.Click += new System.EventHandler(this.btnClear2_Click);
             // 
             // frmNhapKhachHang
             // 
