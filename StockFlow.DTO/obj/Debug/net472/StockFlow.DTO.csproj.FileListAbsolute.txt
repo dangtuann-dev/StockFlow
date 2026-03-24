@@ -18,3 +18,13 @@ D:\ASP\StockFlow\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.csproj.CoreCompile
 D:\ASP\StockFlow\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.sourcelink.json
 D:\ASP\StockFlow\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.dll
 D:\ASP\StockFlow\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.pdb
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\bin\Debug\net472\StockFlow.DTO.dll
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\bin\Debug\net472\StockFlow.DTO.pdb
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.csproj.AssemblyReference.cache
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.AssemblyInfoInputs.cache
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.AssemblyInfo.cs
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.csproj.CoreCompileInputs.cache
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.sourcelink.json
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.dll
+D:\ASP\StockFlow - Copy (2)\StockFlow.DTO\obj\Debug\net472\StockFlow.DTO.pdb

@@ -1,22 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP\\StockFlow\\",
+  "WorkspaceRootPath": "D:\\ASP\\StockFlow - Copy (2)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow\\stockflow\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmquanlykhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmquanlykhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow\\stockflow\\usermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\usermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmquanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmquanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow\\stockflow\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmquanlykhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmquanlykhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow\\stockflow\\pronduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\pronduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmquanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmquanlydanhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmtrangtaotaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmtrangtaotaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmtrangtaotaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmtrangtaotaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|d:\\asp\\stockflow - copy (2)\\stockflow\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{312975FA-C7CD-4A99-A2AC-196EE57D0DF9}|StockFlow\\StockFlow.csproj|solutionrelative:stockflow\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +54,170 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductForm.cs [Design]",
-              "DocumentMoniker": "D:\\ASP\\StockFlow\\StockFlow\\ProductForm.cs",
-              "RelativeDocumentMoniker": "StockFlow\\ProductForm.cs",
-              "ToolTip": "D:\\ASP\\StockFlow\\StockFlow\\ProductForm.cs [Design]",
-              "RelativeToolTip": "StockFlow\\ProductForm.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\Program.cs",
+              "RelativeDocumentMoniker": "StockFlow\\Program.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\Program.cs",
+              "RelativeToolTip": "StockFlow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:27:05.077Z",
+              "WhenOpened": "2026-03-24T04:52:08.396Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmDangNhap.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "StockFlow\\frmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:52:14.541Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmDangNhap.cs",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmDangNhap.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmDangNhap.cs",
+              "RelativeToolTip": "StockFlow\\frmDangNhap.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:52:21.239Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmTrangTaoTaiKhoan.cs [Design]",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmTrangTaoTaiKhoan.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmTrangTaoTaiKhoan.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmTrangTaoTaiKhoan.cs [Design]",
+              "RelativeToolTip": "StockFlow\\frmTrangTaoTaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:52:26.599Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmTrangTaoTaiKhoan.cs",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmTrangTaoTaiKhoan.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmTrangTaoTaiKhoan.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmTrangTaoTaiKhoan.cs",
+              "RelativeToolTip": "StockFlow\\frmTrangTaoTaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:52:30.597Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmTrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmTrangChu.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmTrangChu.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmTrangChu.cs [Design]",
+              "RelativeToolTip": "StockFlow\\frmTrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:53:16.405Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmTrangChu.cs",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmTrangChu.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmTrangChu.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmTrangChu.cs",
+              "RelativeToolTip": "StockFlow\\frmTrangChu.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:53:21.777Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmQuanLyDanhMuc.cs [Design]",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmQuanLyDanhMuc.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmQuanLyDanhMuc.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmQuanLyDanhMuc.cs [Design]",
+              "RelativeToolTip": "StockFlow\\frmQuanLyDanhMuc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:53:41.097Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmQuanLyKhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmQuanLyKhachHang.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmQuanLyKhachHang.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmQuanLyKhachHang.cs [Design]",
+              "RelativeToolTip": "StockFlow\\frmQuanLyKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:53:47.051Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserModule.cs [Design]",
-              "DocumentMoniker": "D:\\ASP\\StockFlow\\StockFlow\\UserModule.cs",
-              "RelativeDocumentMoniker": "StockFlow\\UserModule.cs",
-              "ToolTip": "D:\\ASP\\StockFlow\\StockFlow\\UserModule.cs [Design]*",
-              "RelativeToolTip": "StockFlow\\UserModule.cs [Design]*",
+              "Title": "frmQuanLyDanhMuc.cs",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmQuanLyDanhMuc.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmQuanLyDanhMuc.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmQuanLyDanhMuc.cs",
+              "RelativeToolTip": "StockFlow\\frmQuanLyDanhMuc.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAASwD4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:23:38.049Z",
+              "WhenOpened": "2026-03-24T04:53:55.195Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Users.cs [Design]",
-              "DocumentMoniker": "D:\\ASP\\StockFlow\\StockFlow\\Users.cs",
-              "RelativeDocumentMoniker": "StockFlow\\Users.cs",
-              "ToolTip": "D:\\ASP\\StockFlow\\StockFlow\\Users.cs [Design]*",
-              "RelativeToolTip": "StockFlow\\Users.cs [Design]*",
+              "Title": "frmQuanLyKhachHang.cs",
+              "DocumentMoniker": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmQuanLyKhachHang.cs",
+              "RelativeDocumentMoniker": "StockFlow\\frmQuanLyKhachHang.cs",
+              "ToolTip": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow\\frmQuanLyKhachHang.cs",
+              "RelativeToolTip": "StockFlow\\frmQuanLyKhachHang.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAApwFUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:20:01.957Z",
+              "WhenOpened": "2026-03-24T04:54:25.754Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pronduct.cs [Design]",
-              "DocumentMoniker": "D:\\ASP\\StockFlow\\StockFlow\\Pronduct.cs",
-              "RelativeDocumentMoniker": "StockFlow\\Pronduct.cs",
-              "ToolTip": "D:\\ASP\\StockFlow\\StockFlow\\Pronduct.cs [Design]",
-              "RelativeToolTip": "StockFlow\\Pronduct.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T13:26:29.807Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

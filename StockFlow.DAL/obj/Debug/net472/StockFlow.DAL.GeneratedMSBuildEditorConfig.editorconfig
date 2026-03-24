@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = StockFlow.DAL
-build_property.ProjectDir = D:\ASP\StockFlow\StockFlow.DAL\
+build_property.ProjectDir = D:\ASP\StockFlow - Copy (2)\StockFlow.DAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

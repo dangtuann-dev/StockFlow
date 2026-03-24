@@ -28,3 +28,23 @@ D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.csproj.CoreCompile
 D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.sourcelink.json
 D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.dll
 D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.pdb
+D:\ASP\StockFlow\StockFlow.BLL\bin\Debug\net472\StockFlow.DAL.dll
+D:\ASP\StockFlow\StockFlow.BLL\bin\Debug\net472\StockFlow.DTO.dll
+D:\ASP\StockFlow\StockFlow.BLL\bin\Debug\net472\StockFlow.DAL.pdb
+D:\ASP\StockFlow\StockFlow.BLL\bin\Debug\net472\StockFlow.DTO.pdb
+D:\ASP\StockFlow\StockFlow.BLL\obj\Debug\net472\StockFlo.CAFA5BE2.Up2Date
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\bin\Debug\net472\StockFlow.BLL.dll
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\bin\Debug\net472\StockFlow.BLL.pdb
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\bin\Debug\net472\StockFlow.DAL.dll
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\bin\Debug\net472\StockFlow.DTO.dll
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\bin\Debug\net472\StockFlow.DAL.pdb
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\bin\Debug\net472\StockFlow.DTO.pdb
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.csproj.AssemblyReference.cache
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.AssemblyInfoInputs.cache
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.AssemblyInfo.cs
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.csproj.CoreCompileInputs.cache
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.sourcelink.json
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlo.CAFA5BE2.Up2Date
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.dll
+D:\ASP\StockFlow - Copy (2)\StockFlow.BLL\obj\Debug\net472\StockFlow.BLL.pdb

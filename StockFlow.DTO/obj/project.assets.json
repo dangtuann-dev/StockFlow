@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP\\StockFlow\\StockFlow.DTO\\StockFlow.DTO.csproj",
+      "projectUniqueName": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.DTO\\StockFlow.DTO.csproj",
       "projectName": "StockFlow.DTO",
-      "projectPath": "D:\\ASP\\StockFlow\\StockFlow.DTO\\StockFlow.DTO.csproj",
+      "projectPath": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.DTO\\StockFlow.DTO.csproj",
       "packagesPath": "C:\\Users\\vuchi\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP\\StockFlow\\StockFlow.DTO\\obj\\",
+      "outputPath": "D:\\ASP\\StockFlow - Copy (2)\\StockFlow.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
