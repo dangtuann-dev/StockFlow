@@ -1,4 +1,4 @@
-﻿
+﻿using StockFlow.BLL;
 using StockFlow.DTO;
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,7 @@ namespace StockFlow
 {
     public partial class frmDangNhap : Form
     {
+        UserBLL bll = new UserBLL();
         public frmDangNhap()
         {
             InitializeComponent();
@@ -30,7 +31,7 @@ namespace StockFlow
 
         private void txtPassword_TextChanged_2(object sender, EventArgs e)
         {
-
+            txtPassword.PasswordChar = '*';
         }
 
         private void lblUsername_Click(object sender, EventArgs e)
@@ -53,6 +54,45 @@ namespace StockFlow
 
         }
 
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            // 1. Kiểm tra rỗng
+            if (txtUserName.Text.Trim() == "" || txtPassword.Text.Trim() == "")
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ Username và Password!");
+                return;
+            }
+
+            // 2. Tạo object
+            UserDTO user = new UserDTO()
+            {
+                UserName = txtUserName.Text.Trim(),
+                Password = txtPassword.Text.Trim()
+            };
+
+            // 3. Kiểm tra đăng nhập
+            UserDTO result = bll.Login(user);
+            if (result != null)
+            {
+                frmTrangChu f = new frmTrangChu(result);
+                f.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Sai tài khoản hoặc mật khẩu!");
+            }
+        }
+
+        private void btnSignUp_Click_1(object sender, EventArgs e)
+        {
+            frmTrangTaoTaiKhoan f = new frmTrangTaoTaiKhoan();
+            f.ShowDialog();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
 

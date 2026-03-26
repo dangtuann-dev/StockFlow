@@ -10,11 +10,33 @@ namespace StockFlow.BLL
 {
     public class UserBLL
     {
-        private UserDAL userDAL = new UserDAL();
+        UserDAL dal = new UserDAL();
 
-        public List<UserDTO> GetUserDTOs()
+        public UserDTO? Login(UserDTO user)
         {
-            return userDAL.GetUserDTOs();
+            if (string.IsNullOrEmpty(user.UserName) || string.IsNullOrEmpty(user.Password))
+                return null;
+
+            return dal.Login(user.UserName, user.Password);
+        }
+        public bool Register(UserDTO user)
+        {
+            if (user == null ||
+                string.IsNullOrEmpty(user.UserName) ||
+                string.IsNullOrEmpty(user.Password))
+                return false;
+
+            // check trùng
+            if (dal.CheckExist(user.UserName))
+                return false;
+
+            return dal.InsertUser(user);
+        }
+        public bool Update(UserDTO user)
+        {
+            if (user == null || string.IsNullOrEmpty(user.UserName))
+                return false;
+            return dal.UpdateUser(user);
         }
     }
 }

@@ -13,7 +13,7 @@ namespace StockFlow
 {
     public partial class frmNhapDanhMuc : Form
     {
-        // Sửa lại chuỗi kết nối chuẩn (đảm bảo Server Name của bạn đúng)
+        
         string conString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=StockFlowDb;Integrated Security=True";
 
         public frmNhapDanhMuc()
