@@ -44,9 +44,12 @@
             this.btnCategories2 = new System.Windows.Forms.Button();
             this.btnUsers2 = new System.Windows.Forms.Button();
             this.btnDelete2 = new System.Windows.Forms.Button();
+            this.dgvKhachHang = new System.Windows.Forms.DataGridView();
+            this.btnHome2 = new System.Windows.Forms.Button();
             this.pnlHeader2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox2)).BeginInit();
             this.pnlManageCustomer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlHeader2
@@ -109,6 +112,7 @@
             // pnlManageCustomer
             // 
             this.pnlManageCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(181)))), ((int)(((byte)(234)))));
+            this.pnlManageCustomer.Controls.Add(this.btnHome2);
             this.pnlManageCustomer.Controls.Add(this.btnAdd2);
             this.pnlManageCustomer.Controls.Add(this.lblManageCustomer);
             this.pnlManageCustomer.Location = new System.Drawing.Point(0, 705);
@@ -121,11 +125,12 @@
             this.btnAdd2.FlatAppearance.BorderSize = 0;
             this.btnAdd2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd2.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd2.Image")));
-            this.btnAdd2.Location = new System.Drawing.Point(1365, 46);
+            this.btnAdd2.Location = new System.Drawing.Point(1365, 26);
             this.btnAdd2.Name = "btnAdd2";
             this.btnAdd2.Size = new System.Drawing.Size(75, 43);
             this.btnAdd2.TabIndex = 1;
             this.btnAdd2.UseVisualStyleBackColor = true;
+            this.btnAdd2.Click += new System.EventHandler(this.btnAdd2_Click);
             // 
             // lblManageCustomer
             // 
@@ -146,6 +151,7 @@
             this.btnProduct2.Size = new System.Drawing.Size(110, 107);
             this.btnProduct2.TabIndex = 1;
             this.btnProduct2.UseVisualStyleBackColor = true;
+            this.btnProduct2.Click += new System.EventHandler(this.btnProduct2_Click);
             // 
             // btnCustomer2
             // 
@@ -190,6 +196,7 @@
             this.btnUsers2.Size = new System.Drawing.Size(110, 107);
             this.btnUsers2.TabIndex = 16;
             this.btnUsers2.UseVisualStyleBackColor = true;
+            this.btnUsers2.Click += new System.EventHandler(this.btnUsers2_Click);
             // 
             // btnDelete2
             // 
@@ -201,12 +208,36 @@
             this.btnDelete2.Size = new System.Drawing.Size(75, 29);
             this.btnDelete2.TabIndex = 17;
             this.btnDelete2.UseVisualStyleBackColor = true;
+            this.btnDelete2.Click += new System.EventHandler(this.btnDelete2_Click);
+            // 
+            // dgvKhachHang
+            // 
+            this.dgvKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKhachHang.Location = new System.Drawing.Point(1, 279);
+            this.dgvKhachHang.Name = "dgvKhachHang";
+            this.dgvKhachHang.Size = new System.Drawing.Size(1436, 426);
+            this.dgvKhachHang.TabIndex = 18;
+            this.dgvKhachHang.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhachHang_CellContentClick);
+            // 
+            // btnHome2
+            // 
+            this.btnHome2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnHome2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome2.Location = new System.Drawing.Point(1240, 28);
+            this.btnHome2.Name = "btnHome2";
+            this.btnHome2.Size = new System.Drawing.Size(119, 41);
+            this.btnHome2.TabIndex = 3;
+            this.btnHome2.Text = "Home";
+            this.btnHome2.UseVisualStyleBackColor = false;
+            this.btnHome2.Click += new System.EventHandler(this.btnHome2_Click);
             // 
             // frmQuanLyKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1440, 797);
+            this.Controls.Add(this.dgvKhachHang);
             this.Controls.Add(this.btnDelete2);
             this.Controls.Add(this.btnUsers2);
             this.Controls.Add(this.btnCategories2);
@@ -220,9 +251,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQuanLyKhachHang";
             this.Text = "frmQuanLyDanhMuc";
+            this.Load += new System.EventHandler(this.frmQuanLyKhachHang_Load);
             this.pnlHeader2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picBox2)).EndInit();
             this.pnlManageCustomer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -244,5 +277,7 @@
         private System.Windows.Forms.Button btnCategories2;
         private System.Windows.Forms.Button btnUsers2;
         private System.Windows.Forms.Button btnDelete2;
+        private System.Windows.Forms.DataGridView dgvKhachHang;
+        private System.Windows.Forms.Button btnHome2;
     }
 }
