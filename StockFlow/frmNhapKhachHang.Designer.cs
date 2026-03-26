@@ -60,6 +60,7 @@
             this.btnDelete2.Size = new System.Drawing.Size(50, 51);
             this.btnDelete2.TabIndex = 1;
             this.btnDelete2.UseVisualStyleBackColor = true;
+            this.btnDelete2.Click += new System.EventHandler(this.btnDelete2_Click);
             this.btnDelete2.Click += new System.EventHandler(this.btnX2_Click);
             // 
             // lblCustomerModule

@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTrangChu));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.picBoxIcon = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.btnProduct = new System.Windows.Forms.Button();
             this.btnUsers = new System.Windows.Forms.Button();
             this.btnCustomer = new System.Windows.Forms.Button();
@@ -55,6 +55,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1856, 348);
             this.panel1.TabIndex = 0;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.FlatAppearance.BorderSize = 0;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
+            this.btnDelete.Location = new System.Drawing.Point(1184, 3);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(50, 50);
+            this.btnDelete.TabIndex = 3;
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // label2
             // 
@@ -94,17 +106,6 @@
             this.panel2.Size = new System.Drawing.Size(1856, 106);
             this.panel2.TabIndex = 3;
             // 
-            // btnDelete
-            // 
-            this.btnDelete.FlatAppearance.BorderSize = 0;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(1184, 3);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(50, 50);
-            this.btnDelete.TabIndex = 3;
-            this.btnDelete.UseVisualStyleBackColor = true;
-            // 
             // btnProduct
             // 
             this.btnProduct.FlatAppearance.BorderSize = 0;
@@ -115,6 +116,7 @@
             this.btnProduct.Size = new System.Drawing.Size(169, 200);
             this.btnProduct.TabIndex = 22;
             this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // btnUsers
             // 
@@ -126,6 +128,7 @@
             this.btnUsers.Size = new System.Drawing.Size(169, 169);
             this.btnUsers.TabIndex = 23;
             this.btnUsers.UseVisualStyleBackColor = true;
+            this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
             // btnCustomer
             // 
@@ -137,6 +140,7 @@
             this.btnCustomer.Size = new System.Drawing.Size(169, 179);
             this.btnCustomer.TabIndex = 24;
             this.btnCustomer.UseVisualStyleBackColor = true;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnCategories
             // 
@@ -148,6 +152,7 @@
             this.btnCategories.Size = new System.Drawing.Size(169, 193);
             this.btnCategories.TabIndex = 25;
             this.btnCategories.UseVisualStyleBackColor = true;
+            this.btnCategories.Click += new System.EventHandler(this.btnCategories_Click);
             // 
             // btnOrders
             // 
@@ -159,6 +164,7 @@
             this.btnOrders.Size = new System.Drawing.Size(169, 169);
             this.btnOrders.TabIndex = 26;
             this.btnOrders.UseVisualStyleBackColor = true;
+            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
             // 
             // frmTrangChu
             // 

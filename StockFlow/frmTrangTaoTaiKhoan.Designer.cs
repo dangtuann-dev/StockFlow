@@ -199,8 +199,7 @@
             this.btnLogin.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnLogin.FlatAppearance.BorderSize = 2;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 23.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(864, 1066);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnLogin.Location = new System.Drawing.Point(576, 693);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(256, 86);
             this.btnLogin.TabIndex = 10;

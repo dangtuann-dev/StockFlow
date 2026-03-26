@@ -44,9 +44,12 @@
             this.btnCategories = new System.Windows.Forms.Button();
             this.btnUsers = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.dgvDanhMuc = new System.Windows.Forms.DataGridView();
+            this.btnHome = new System.Windows.Forms.Button();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox)).BeginInit();
             this.pnlManageCategories.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDanhMuc)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlHeader
@@ -109,6 +112,7 @@
             // pnlManageCategories
             // 
             this.pnlManageCategories.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(181)))), ((int)(((byte)(234)))));
+            this.pnlManageCategories.Controls.Add(this.btnHome);
             this.pnlManageCategories.Controls.Add(this.btnAdd);
             this.pnlManageCategories.Controls.Add(this.lblManageCategories);
             this.pnlManageCategories.Location = new System.Drawing.Point(0, 705);
@@ -121,11 +125,12 @@
             this.btnAdd.FlatAppearance.BorderSize = 0;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.Location = new System.Drawing.Point(1365, 46);
+            this.btnAdd.Location = new System.Drawing.Point(1365, 32);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 43);
             this.btnAdd.TabIndex = 1;
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lblManageCategories
             // 
@@ -146,6 +151,7 @@
             this.btnProduct.Size = new System.Drawing.Size(110, 107);
             this.btnProduct.TabIndex = 1;
             this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // btnCustomer
             // 
@@ -190,6 +196,7 @@
             this.btnUsers.Size = new System.Drawing.Size(110, 107);
             this.btnUsers.TabIndex = 16;
             this.btnUsers.UseVisualStyleBackColor = true;
+            this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
             // btnDelete
             // 
@@ -201,12 +208,36 @@
             this.btnDelete.Size = new System.Drawing.Size(75, 29);
             this.btnDelete.TabIndex = 17;
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // dgvDanhMuc
+            // 
+            this.dgvDanhMuc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDanhMuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDanhMuc.Location = new System.Drawing.Point(0, 278);
+            this.dgvDanhMuc.Name = "dgvDanhMuc";
+            this.dgvDanhMuc.Size = new System.Drawing.Size(1440, 427);
+            this.dgvDanhMuc.TabIndex = 18;
+            this.dgvDanhMuc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhMuc_CellContentClick);
+            // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.Location = new System.Drawing.Point(1240, 32);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(119, 41);
+            this.btnHome.TabIndex = 2;
+            this.btnHome.Text = "Home";
+            this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // frmQuanLyDanhMuc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1440, 797);
+            this.Controls.Add(this.dgvDanhMuc);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUsers);
             this.Controls.Add(this.btnCategories);
@@ -220,9 +251,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQuanLyDanhMuc";
             this.Text = "frmQuanLyDanhMuc";
+            this.Load += new System.EventHandler(this.frmQuanLyDanhMuc_Load);
             this.pnlHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picBox)).EndInit();
             this.pnlManageCategories.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDanhMuc)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -244,5 +277,7 @@
         private System.Windows.Forms.Button btnCategories;
         private System.Windows.Forms.Button btnUsers;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.DataGridView dgvDanhMuc;
+        private System.Windows.Forms.Button btnHome;
     }
 }

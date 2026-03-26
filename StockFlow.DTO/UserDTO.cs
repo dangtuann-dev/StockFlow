@@ -7,10 +7,10 @@ namespace StockFlow.DTO
     public class UserDTO
     {
         public int UserID { get; set; }
-        public string UserName { get; set; } = string.Empty;
-        public string FullName { get; set; } = string.Empty;
-        public string Password { get; set; } = string.Empty;
-        public string Phone { get; set; } = string.Empty;
-        public string Role { get; set; } = string.Empty;
+        public string UserName { get; set; }
+        public string FullName { get; set; }
+        public string Password { get; set; }
+        public string DisplayPassword => new string('*', Password?.Length ?? 0);
+        public string Phone { get; set; }
     }
 }
