@@ -491,3 +491,18 @@ PRINT '============================================================';
 PRINT ' HOAN THANH! StockFlowDb san sang su dung.';
 PRINT '============================================================';
 GO
+
+
+ALTER TABLE Users
+ADD CONSTRAINT DF_FullName DEFAULT 'Unknown' FOR FullName
+
+select * from USERS
+
+DELETE FROM Users
+WHERE UserName = 'Staff03'
+
+ALTER TABLE Users
+ADD CONSTRAINT DF_Role DEFAULT 'staff' FOR Role
+
+ALTER TABLE Users
+ALTER COLUMN Role NVARCHAR(20) NOT NULL

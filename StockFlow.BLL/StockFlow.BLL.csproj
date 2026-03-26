@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\StockFlow.DAL\StockFlow.DAL.csproj" />
+    <ProjectReference Include="..\StockFlow.DTO\StockFlow.DTO.csproj" />
+  </ItemGroup>
+
 </Project>

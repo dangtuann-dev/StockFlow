@@ -109,6 +109,7 @@ namespace StockFlow
             this.btnSignUp.Text = "Sign Up";
             this.btnSignUp.UseVisualStyleBackColor = false;
             this.btnSignUp.TextChanged += new System.EventHandler(this.btnSignUp_Click);
+            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click_1);
             // 
             // btnLogin
             // 
@@ -121,6 +122,7 @@ namespace StockFlow
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.TextChanged += new System.EventHandler(this.btnLogin_Click);
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click_1);
             // 
             // txtPassword
             // 
@@ -179,6 +181,7 @@ namespace StockFlow
             this.btnDelete.Size = new System.Drawing.Size(50, 50);
             this.btnDelete.TabIndex = 2;
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // frmDangNhap
             // 

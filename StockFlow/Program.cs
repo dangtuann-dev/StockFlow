@@ -16,7 +16,7 @@ namespace StockFlow
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmNhapKhachHang());
+            Application.Run(new frmDangNhap());
         }
     }
 }
