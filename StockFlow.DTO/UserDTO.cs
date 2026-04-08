@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -12,5 +12,6 @@ namespace StockFlow.DTO
         public string Password { get; set; }
         public string DisplayPassword => new string('*', Password?.Length ?? 0);
         public string Phone { get; set; }
+        public string Role { get; set; }
     }
 }

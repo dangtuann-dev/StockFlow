@@ -73,6 +73,7 @@ namespace StockFlow
             this.btnX.TabIndex = 1;
             this.btnX.Text = "X";
             this.btnX.UseVisualStyleBackColor = false;
+            this.btnX.Click += new System.EventHandler(this.btnX_handler);
             // 
             // lblProductModule
             // 

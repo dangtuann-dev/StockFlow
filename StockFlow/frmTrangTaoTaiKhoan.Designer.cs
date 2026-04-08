@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class frmTrangTaoTaiKhoan
     {
@@ -111,6 +111,7 @@
             this.btnDelete.Size = new System.Drawing.Size(104, 54);
             this.btnDelete.TabIndex = 1;
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // txtUserName
             // 
@@ -212,6 +213,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(1946, 1226);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnClear);

@@ -1,4 +1,4 @@
-﻿using StockFlow.BLL;
+using StockFlow.BLL;
 using StockFlow.DTO;
 using System;
 using System.Collections.Generic;
@@ -18,6 +18,7 @@ namespace StockFlow
         public frmTrangTaoTaiKhoan()
         {
             InitializeComponent();
+            UIHelper.StandardizeForm(this);
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -70,6 +71,11 @@ namespace StockFlow
             {
                 MessageBox.Show("Cập nhật thất bại!");
             }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void btnClear_Click(object sender, EventArgs e)

@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class frmNhapDanhMuc
     {
@@ -169,6 +169,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(1402, 629);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnUpdate);

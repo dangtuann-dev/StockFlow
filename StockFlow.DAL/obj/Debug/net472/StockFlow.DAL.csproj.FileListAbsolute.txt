@@ -1,13 +1,3 @@
-D:\Web Profile\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DAL.dll
-D:\Web Profile\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DAL.pdb
-D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.csproj.AssemblyReference.cache
-D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.GeneratedMSBuildEditorConfig.editorconfig
-D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.AssemblyInfoInputs.cache
-D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.AssemblyInfo.cs
-D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.csproj.CoreCompileInputs.cache
-D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.sourcelink.json
-D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.dll
-D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.pdb
 D:\ASP\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DAL.dll
 D:\ASP\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DAL.pdb
 D:\ASP\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.csproj.AssemblyReference.cache
@@ -34,3 +24,16 @@ D:\ASP\StockFlow - Copy (2)\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.sourcel
 D:\ASP\StockFlow - Copy (2)\StockFlow.DAL\obj\Debug\net472\StockFlo.5A491A98.Up2Date
 D:\ASP\StockFlow - Copy (2)\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.dll
 D:\ASP\StockFlow - Copy (2)\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.pdb
+D:\Web Profile\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DAL.dll
+D:\Web Profile\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DAL.pdb
+D:\Web Profile\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DTO.dll
+D:\Web Profile\StockFlow\StockFlow.DAL\bin\Debug\net472\StockFlow.DTO.pdb
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.csproj.AssemblyReference.cache
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.AssemblyInfoInputs.cache
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.AssemblyInfo.cs
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.csproj.CoreCompileInputs.cache
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.sourcelink.json
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlo.5A491A98.Up2Date
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.dll
+D:\Web Profile\StockFlow\StockFlow.DAL\obj\Debug\net472\StockFlow.DAL.pdb

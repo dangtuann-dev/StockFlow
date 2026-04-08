@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace StockFlow.DAL
     public static class DataAccess
     {
         // Thay địa chỉ SQL để sử dụng (lưu ý xóa Trust Server Certificate=True)
-        public static string ConnectionString = @"Data Source=MOONLIGHT\SQLEXPRESS;Initial Catalog=StockFlowDb;Integrated Security=True;";
+        public static string ConnectionString = @"Data Source=ADMIN-PC;Initial Catalog=StockFlowDb;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;";
 
         public static SqlConnection GetConnection()
         {

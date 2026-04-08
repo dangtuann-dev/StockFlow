@@ -1,4 +1,4 @@
-﻿using StockFlow.BLL;
+using StockFlow.BLL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,6 +17,7 @@ namespace StockFlow
         public frmQuanLyKhachHang()
         {
             InitializeComponent();
+            UIHelper.StandardizeForm(this);
         }
         private void frmQuanLyKhachHang_Load(object sender, EventArgs e)
         {
@@ -25,10 +26,7 @@ namespace StockFlow
 
         private void LoadData()
         {
-
             dgvKhachHang.DataSource = userBLL.GetUserDTOs();
-
-
 
             // Tùy chỉnh tiêu đề cột
             dgvKhachHang.Columns["UserID"].HeaderText = "ID Khach hang";
@@ -41,7 +39,7 @@ namespace StockFlow
             dgvKhachHang.Columns["DisplayPassword"].DisplayIndex = 3;
 
             dgvKhachHang.Columns["Phone"].HeaderText = "SĐT";
-
+            dgvKhachHang.Columns["Role"].HeaderText = "Quyền";
         }
 
         private void dgvKhachHang_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -65,24 +63,57 @@ namespace StockFlow
         private void btnProduct2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmQuanLyDanhMuc f = new frmQuanLyDanhMuc();
-            f.ShowDialog();
+            Pronduct f = new Pronduct(null);
+            if (f.ShowDialog() == DialogResult.Abort) {
+                this.DialogResult = DialogResult.Abort;
+                this.Close();
+                return;
+            }
             this.Show();
         }
 
         private void btnUsers2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmQuanLyKhachHang f = new frmQuanLyKhachHang();
-            f.ShowDialog();
+            Users f = new Users(null);
+            if (f.ShowDialog() == DialogResult.Abort) {
+                this.DialogResult = DialogResult.Abort;
+                this.Close();
+                return;
+            }
             this.Show();
         }
 
         private void btnHome2_Click(object sender, EventArgs e)
         {
+            this.DialogResult = DialogResult.Abort;
+            this.Close();
+        }
+        private void picBox2_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Abort;
+            this.Close();
+        }
+        private void btnCategories2_Click(object sender, EventArgs e)
+        {
             this.Hide();
-            frmTrangChu f = new frmTrangChu();
-            f.ShowDialog();
+            frmQuanLyDanhMuc f = new frmQuanLyDanhMuc();
+            if (f.ShowDialog() == DialogResult.Abort) {
+                this.DialogResult = DialogResult.Abort;
+                this.Close();
+                return;
+            }
+            this.Show();
+        }
+        private void btnOrders2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmDatHang f = new frmDatHang();
+            if (f.ShowDialog() == DialogResult.Abort) {
+                this.DialogResult = DialogResult.Abort;
+                this.Close();
+                return;
+            }
             this.Show();
         }
     }

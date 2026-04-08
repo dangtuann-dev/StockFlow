@@ -1,4 +1,4 @@
-﻿using StockFlow.DTO;
+using StockFlow.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -10,39 +10,70 @@ namespace StockFlow.DAL
 {
     public class UserDAL
     {
-        DBConnect db = new DBConnect();
 
-        public UserDTO? Login(string username, string password)
+
+        // Helper: kiểm tra cột có tồn tại trong reader không
+        private static bool HasColumn(SqlDataReader reader, string columnName)
         {
-            SqlConnection conn = db.GetConnection();
-            conn.Open();
+            for (int i = 0; i < reader.FieldCount; i++)
+                if (reader.GetName(i).Equals(columnName, StringComparison.OrdinalIgnoreCase))
+                    return true;
+            return false;
+        }
 
-            string query = "SELECT * FROM Users WHERE UserName=@u AND Password=@p";
-            SqlCommand cmd = new SqlCommand(query, conn);
-
-            cmd.Parameters.AddWithValue("@u", username);
-            cmd.Parameters.AddWithValue("@p", password);
-
-            SqlDataReader reader = cmd.ExecuteReader();
-
-            if (reader.Read())
+        public UserDTO Login(string username, string password)
+        {
+            using (SqlConnection conn = DataAccess.GetConnection())
             {
-                UserDTO user = new UserDTO()
+                conn.Open();
+                string query = "SELECT * FROM Users WHERE UserName=@u AND Password=@p";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@u", username);
+                cmd.Parameters.AddWithValue("@p", password);
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
                 {
-                    UserName = reader["UserName"].ToString(),
-                    Role = reader["Role"].ToString()
-                };
-
-                conn.Close();
-                return user;
+                    return new UserDTO()
+                    {
+                        UserID   = reader["UserID"] != DBNull.Value ? (int)reader["UserID"] : 0,
+                        UserName = reader["UserName"].ToString(),
+                        FullName = HasColumn(reader, "FullName") && reader["FullName"] != DBNull.Value ? reader["FullName"].ToString() : "",
+                        Password = reader["Password"].ToString(),
+                        Phone    = HasColumn(reader, "Phone") && reader["Phone"] != DBNull.Value ? reader["Phone"].ToString() : "",
+                        Role     = HasColumn(reader, "Role") && reader["Role"] != DBNull.Value ? reader["Role"].ToString() : "admin"
+                    };
+                }
+                return null;
             }
+        }
 
-            conn.Close();
-            return null;
+        public List<UserDTO> GetAllUsers()
+        {
+            List<UserDTO> list = new List<UserDTO>();
+            using (SqlConnection conn = DataAccess.GetConnection())
+            {
+                conn.Open();
+                string query = "SELECT * FROM Users";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    list.Add(new UserDTO()
+                    {
+                        UserID   = reader["UserID"] != DBNull.Value ? (int)reader["UserID"] : 0,
+                        UserName = reader["UserName"].ToString(),
+                        FullName = reader["FullName"] != DBNull.Value ? reader["FullName"].ToString() : "",
+                        Password = reader["Password"].ToString(),
+                        Phone    = reader["Phone"] != DBNull.Value ? reader["Phone"].ToString() : "",
+                        Role     = reader["Role"] != DBNull.Value ? reader["Role"].ToString() : ""
+                    });
+                }
+            }
+            return list;
         }
         public bool InsertUser(UserDTO user)
         {
-            using (SqlConnection conn = db.GetConnection())
+            using (SqlConnection conn = DataAccess.GetConnection())
             {
                 conn.Open();
 
@@ -59,7 +90,7 @@ namespace StockFlow.DAL
         }
         public bool CheckExist(string username)
         {
-            using (SqlConnection conn = db.GetConnection())
+            using (SqlConnection conn = DataAccess.GetConnection())
             {
                 conn.Open();
 
@@ -73,7 +104,7 @@ namespace StockFlow.DAL
         }
         public bool UpdateUser(UserDTO user)
         {
-            using (SqlConnection conn = db.GetConnection())
+            using (SqlConnection conn = DataAccess.GetConnection())
             {
                 conn.Open();
 

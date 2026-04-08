@@ -1,4 +1,4 @@
-﻿using StockFlow.DTO;
+using StockFlow.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,6 +17,7 @@ namespace StockFlow
         public frmTrangChu(UserDTO user)
         {
             InitializeComponent();
+            UIHelper.StandardizeForm(this);
             currentUser = user;
         }
 
@@ -61,8 +62,17 @@ namespace StockFlow
             }
         }
 
-        // Chuyển trang 
+        // Pronduct – Quản lý sản phẩm
         private void btnProduct_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Pronduct f = new Pronduct(currentUser);
+            f.ShowDialog();
+            this.Show();
+        }
+
+        // frmQuanLyDanhMuc – Quản lý danh mục
+        private void btnCategories_Click(object sender, EventArgs e)
         {
             this.Hide();
             frmQuanLyDanhMuc f = new frmQuanLyDanhMuc();
@@ -70,17 +80,8 @@ namespace StockFlow
             this.Show();
         }
 
-        private void btnCategories_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        // frmQuanLyKhachHang – Quản lý khách hàng
         private void btnCustomer_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnUsers_Click(object sender, EventArgs e)
         {
             this.Hide();
             frmQuanLyKhachHang f = new frmQuanLyKhachHang();
@@ -88,14 +89,32 @@ namespace StockFlow
             this.Show();
         }
 
+        // Users – Quản lý tài khoản
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Users f = new Users(currentUser);
+            f.ShowDialog();
+            this.Show();
+        }
+
+        // frmDatHang – Đặt hàng
         private void btnOrders_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            frmDatHang f = new frmDatHang();
+            f.ShowDialog();
+            this.Show();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
+        }
+
+        private void frmTrangChu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -18,6 +18,7 @@ namespace StockFlow
         public frmDangNhap()
         {
             InitializeComponent();
+            UIHelper.StandardizeForm(this);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -44,6 +45,12 @@ namespace StockFlow
 
         }
 
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        // Handler đính vào TextChanged của button (do Designer tạo ra)
         private void btnLogin_Click(object sender, EventArgs e)
         {
 
@@ -93,34 +100,6 @@ namespace StockFlow
         private void btnDelete_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        private void frmDangNhap_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnLogin_Click_1(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmTrangChu f = new frmTrangChu();
-            f.ShowDialog();
-            this.Show();
-        private void btnLogin_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnSignUp_Click_1(object sender, EventArgs e)
-        {
-            this.Hide();
-            frmTrangTaoTaiKhoan f = new frmTrangTaoTaiKhoan();
-            f.ShowDialog();
-            this.Show();
-            
         }
     }
 }

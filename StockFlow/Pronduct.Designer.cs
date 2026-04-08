@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class Pronduct
     {
@@ -98,6 +98,7 @@
             this.btnX.TabIndex = 3;
             this.btnX.Text = "X";
             this.btnX.UseVisualStyleBackColor = false;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
             // dgvProducts
             // 
@@ -172,6 +173,7 @@
             this.btnLogo.Size = new System.Drawing.Size(107, 113);
             this.btnLogo.TabIndex = 35;
             this.btnLogo.UseVisualStyleBackColor = false;
+            this.btnLogo.Click += new System.EventHandler(this.btnLogo_Click);
             // 
             // btnAdd
             // 
@@ -186,6 +188,7 @@
             this.btnAdd.Size = new System.Drawing.Size(31, 33);
             this.btnAdd.TabIndex = 36;
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click_handler);
             // 
             // btnOrders
             // 
@@ -211,6 +214,7 @@
             this.btnCategories.Size = new System.Drawing.Size(76, 67);
             this.btnCategories.TabIndex = 38;
             this.btnCategories.UseVisualStyleBackColor = false;
+            this.btnCategories.Click += new System.EventHandler(this.btnCategories_Click);
             // 
             // btnCustomer
             // 
@@ -248,12 +252,14 @@
             this.btnUsers.Size = new System.Drawing.Size(76, 67);
             this.btnUsers.TabIndex = 40;
             this.btnUsers.UseVisualStyleBackColor = true;
+            this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
             // Pronduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(785, 510);
             this.Controls.Add(this.btnUsers);
             this.Controls.Add(this.btnOrders);

@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class frmQuanLyDanhMuc
     {
@@ -99,6 +99,7 @@
             this.picBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBox.TabIndex = 1;
             this.picBox.TabStop = false;
+            this.picBox.Click += new System.EventHandler(this.picBox_Click);
             // 
             // lblStockFlow
             // 
@@ -163,6 +164,7 @@
             this.btnCustomer.Size = new System.Drawing.Size(110, 107);
             this.btnCustomer.TabIndex = 11;
             this.btnCustomer.UseVisualStyleBackColor = true;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnOrders
             // 
@@ -174,6 +176,7 @@
             this.btnOrders.Size = new System.Drawing.Size(110, 107);
             this.btnOrders.TabIndex = 13;
             this.btnOrders.UseVisualStyleBackColor = true;
+            this.btnOrders.Click += new System.EventHandler(this.btnOrders_Click);
             // 
             // btnCategories
             // 
@@ -236,6 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(1440, 797);
             this.Controls.Add(this.dgvDanhMuc);
             this.Controls.Add(this.btnDelete);

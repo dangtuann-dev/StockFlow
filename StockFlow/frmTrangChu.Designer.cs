@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class frmTrangChu
     {
@@ -170,6 +170,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(211)))), ((int)(((byte)(234)))));
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(1249, 1061);
             this.Controls.Add(this.btnOrders);
             this.Controls.Add(this.btnCategories);
@@ -182,6 +183,7 @@
             this.Name = "frmTrangChu";
             this.Text = "frmTrangChu";
             this.Load += new System.EventHandler(this.frmTrangChu_Load);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmTrangChu_FormClosed);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxIcon)).EndInit();
             this.ResumeLayout(false);

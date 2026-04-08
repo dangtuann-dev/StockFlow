@@ -1,4 +1,4 @@
-﻿using StockFlow.DAL;
+using StockFlow.DAL;
 using StockFlow.DTO;
 using System;
 using System.Collections.Generic;
@@ -37,6 +37,11 @@ namespace StockFlow.BLL
             if (user == null || string.IsNullOrEmpty(user.UserName))
                 return false;
             return dal.UpdateUser(user);
+        }
+
+        public List<UserDTO> GetUserDTOs()
+        {
+            return dal.GetAllUsers();
         }
     }
 }

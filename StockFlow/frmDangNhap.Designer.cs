@@ -186,6 +186,7 @@ namespace StockFlow
             // frmDangNhap
             // 
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(1419, 1029);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.panel3);

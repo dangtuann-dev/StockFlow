@@ -1,4 +1,4 @@
-﻿using StockFlow.BLL;
+using StockFlow.BLL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,6 +17,7 @@ namespace StockFlow
         public frmQuanLyDanhMuc()
         {
             InitializeComponent();
+            UIHelper.StandardizeForm(this);
         }
 
        
@@ -58,24 +59,57 @@ namespace StockFlow
         private void btnProduct_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmQuanLyDanhMuc f = new frmQuanLyDanhMuc();
-            f.ShowDialog();
+            Pronduct f = new Pronduct(null);
+            if (f.ShowDialog() == DialogResult.Abort) {
+                this.DialogResult = DialogResult.Abort;
+                this.Close();
+                return;
+            }
             this.Show();
         }
 
         private void btnUsers_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmQuanLyKhachHang f = new frmQuanLyKhachHang();
-            f.ShowDialog();
+            Users f = new Users(null);
+            if (f.ShowDialog() == DialogResult.Abort) {
+                this.DialogResult = DialogResult.Abort;
+                this.Close();
+                return;
+            }
             this.Show();
         }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
+            this.DialogResult = DialogResult.Abort;
+            this.Close();
+        }
+        private void picBox_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Abort;
+            this.Close();
+        }
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
             this.Hide();
-            frmTrangChu f = new frmTrangChu();
-            f.ShowDialog();
+            frmQuanLyKhachHang f = new frmQuanLyKhachHang();
+            if (f.ShowDialog() == DialogResult.Abort) {
+                this.DialogResult = DialogResult.Abort;
+                this.Close();
+                return;
+            }
+            this.Show();
+        }
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmDatHang f = new frmDatHang();
+            if (f.ShowDialog() == DialogResult.Abort) {
+                this.DialogResult = DialogResult.Abort;
+                this.Close();
+                return;
+            }
             this.Show();
         }
     }

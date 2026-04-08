@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class frmNhapKhachHang
     {
@@ -61,7 +61,6 @@
             this.btnDelete2.TabIndex = 1;
             this.btnDelete2.UseVisualStyleBackColor = true;
             this.btnDelete2.Click += new System.EventHandler(this.btnDelete2_Click);
-            this.btnDelete2.Click += new System.EventHandler(this.btnX2_Click);
             // 
             // lblCustomerModule
             // 
@@ -137,6 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(1402, 629);
             this.Controls.Add(this.btnClear2);
             this.Controls.Add(this.btnUpdate2);

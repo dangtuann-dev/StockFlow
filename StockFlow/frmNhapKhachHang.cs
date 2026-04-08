@@ -17,6 +17,7 @@ namespace StockFlow
         public frmNhapKhachHang()
         {
             InitializeComponent();
+            UIHelper.StandardizeForm(this);
 
         }
         private void btnSave2_Click(object sender, EventArgs e)

@@ -19,11 +19,14 @@ namespace StockFlow
         public frmNhapDanhMuc()
         {
             InitializeComponent();
+            UIHelper.StandardizeForm(this);
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
         // --- NÚT LƯU (SAVE) ---
         private void btnSave_Click(object sender, EventArgs e)
         {

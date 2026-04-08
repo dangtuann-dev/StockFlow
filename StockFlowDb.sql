@@ -39,15 +39,17 @@ GO
 CREATE TABLE USERS (
     UserID      INT           IDENTITY(1,1)     NOT NULL,
     UserName    NVARCHAR(50)                    NOT NULL,
-    FullName    NVARCHAR(100)                   NOT NULL,
+    FullName    NVARCHAR(100) DEFAULT 'Unknown' NOT NULL,
     Password    NVARCHAR(255)                   NOT NULL,
     Phone       NVARCHAR(15)                    NULL,
+    Role        NVARCHAR(20)  DEFAULT 'staff'   NOT NULL,
     CreatedAt   DATETIME      DEFAULT GETDATE() NOT NULL,
 
     CONSTRAINT PK_USERS            PRIMARY KEY (UserID),
     CONSTRAINT UQ_USERS_UserName   UNIQUE      (UserName),
     CONSTRAINT CHK_USERS_Phone     CHECK       (Phone IS NULL OR Phone LIKE '[0-9]%'),
-    CONSTRAINT CHK_USERS_UserName  CHECK       (LEN(UserName) >= 3)
+    CONSTRAINT CHK_USERS_UserName  CHECK       (LEN(UserName) >= 3),
+    CONSTRAINT CHK_USERS_Role      CHECK       (Role IN ('admin','manager','staff','warehouse'))
 );
 GO
 
@@ -188,12 +190,12 @@ GO
 -- ------------------------------------------------------------
 -- Du lieu mau: USERS (5 tai khoan)
 -- ------------------------------------------------------------
-INSERT INTO USERS (UserName, FullName, Password, Phone) VALUES
-    ('admin',      N'Nguyen Van An',    'Admin@123',   '0901234567'),
-    ('manager01',  N'Tran Thi Bich',    'Manager@456', '0912345678'),
-    ('staff01',    N'Le Van Cuong',     'Staff@789',   '0923456789'),
-    ('staff02',    N'Pham Thi Dung',    'Staff@012',   '0934567890'),
-    ('warehouse1', N'Hoang Minh Tuan',  'Ware@345',    '0945678901');
+INSERT INTO USERS (UserName, FullName, Password, Phone, Role) VALUES
+    ('admin',      N'Nguyen Van An',   'Admin@123',   '0901234567', 'admin'),
+    ('manager01',  N'Tran Thi Bich',   'Manager@456', '0912345678', 'manager'),
+    ('staff01',    N'Le Van Cuong',    'Staff@789',   '0923456789', 'staff'),
+    ('staff02',    N'Pham Thi Dung',   'Staff@012',   '0934567890', 'staff'),
+    ('warehouse1', N'Hoang Minh Tuan', 'Ware@345',    '0945678901', 'warehouse');
 GO
 PRINT '>>> Du lieu mau USERS: 5 ban ghi.';
 GO
@@ -491,18 +493,4 @@ PRINT '============================================================';
 PRINT ' HOAN THANH! StockFlowDb san sang su dung.';
 PRINT '============================================================';
 GO
-
-
-ALTER TABLE Users
-ADD CONSTRAINT DF_FullName DEFAULT 'Unknown' FOR FullName
-
-select * from USERS
-
-DELETE FROM Users
-WHERE UserName = 'Staff03'
-
-ALTER TABLE Users
-ADD CONSTRAINT DF_Role DEFAULT 'staff' FOR Role
-
-ALTER TABLE Users
-ALTER COLUMN Role NVARCHAR(20) NOT NULL
+

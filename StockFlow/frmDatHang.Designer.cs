@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class frmDatHang
     {
@@ -115,6 +115,7 @@
             this.btnClose.Size = new System.Drawing.Size(45, 42);
             this.btnClose.TabIndex = 4;
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lblCustomerModule
             // 
@@ -148,6 +149,7 @@
             this.dgvOrder.RowTemplate.Height = 28;
             this.dgvOrder.Size = new System.Drawing.Size(963, 267);
             this.dgvOrder.TabIndex = 2;
+            this.dgvOrder.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvOrder_CellClick);
             // 
             // pnlLeft
             // 
@@ -208,6 +210,7 @@
             this.txtLeftSearch.Name = "txtLeftSearch";
             this.txtLeftSearch.Size = new System.Drawing.Size(205, 26);
             this.txtLeftSearch.TabIndex = 1;
+            this.txtLeftSearch.TextChanged += new System.EventHandler(this.txtLeftSearch_TextChanged);
             // 
             // lblCustomer
             // 
@@ -309,6 +312,7 @@
             this.txtRightSearch.Name = "txtRightSearch";
             this.txtRightSearch.Size = new System.Drawing.Size(319, 26);
             this.txtRightSearch.TabIndex = 8;
+            this.txtRightSearch.TextChanged += new System.EventHandler(this.txtRightSearch_TextChanged);
             // 
             // lblRightSearch
             // 
@@ -377,6 +381,7 @@
             this.btnOrderInsert.TabIndex = 20;
             this.btnOrderInsert.Text = "Order Insert";
             this.btnOrderInsert.UseVisualStyleBackColor = false;
+            this.btnOrderInsert.Click += new System.EventHandler(this.btnOrderInsert_Click);
             // 
             // btnOrderUpdate
             // 
@@ -388,6 +393,7 @@
             this.btnOrderUpdate.TabIndex = 21;
             this.btnOrderUpdate.Text = "Order Update";
             this.btnOrderUpdate.UseVisualStyleBackColor = false;
+            this.btnOrderUpdate.Click += new System.EventHandler(this.btnOrderUpdate_Click);
             // 
             // btnClear
             // 
@@ -411,6 +417,7 @@
             this.btnHome.TabIndex = 23;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // txtQty
             // 
@@ -425,6 +432,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(1413, 967);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnDelete);
@@ -432,6 +440,7 @@
             this.Location = new System.Drawing.Point(346, 32);
             this.Name = "frmOrderModule";
             this.Text = "frmOrderModule";
+            this.Load += new System.EventHandler(this.frmDatHang_Load);
             this.pnlTitleBar.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomer)).EndInit();

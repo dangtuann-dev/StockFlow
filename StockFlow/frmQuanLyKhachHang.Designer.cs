@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class frmQuanLyKhachHang
     {
@@ -99,6 +99,7 @@
             this.picBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBox2.TabIndex = 1;
             this.picBox2.TabStop = false;
+            this.picBox2.Click += new System.EventHandler(this.picBox2_Click);
             // 
             // lblStockFlow
             // 
@@ -174,6 +175,7 @@
             this.btnOrders2.Size = new System.Drawing.Size(110, 107);
             this.btnOrders2.TabIndex = 13;
             this.btnOrders2.UseVisualStyleBackColor = true;
+            this.btnOrders2.Click += new System.EventHandler(this.btnOrders2_Click);
             // 
             // btnCategories2
             // 
@@ -185,6 +187,7 @@
             this.btnCategories2.Size = new System.Drawing.Size(110, 107);
             this.btnCategories2.TabIndex = 14;
             this.btnCategories2.UseVisualStyleBackColor = true;
+            this.btnCategories2.Click += new System.EventHandler(this.btnCategories2_Click);
             // 
             // btnUsers2
             // 
@@ -236,6 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ClientSize = new System.Drawing.Size(1440, 797);
             this.Controls.Add(this.dgvKhachHang);
             this.Controls.Add(this.btnDelete2);

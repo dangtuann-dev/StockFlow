@@ -1,4 +1,4 @@
-﻿namespace StockFlow
+namespace StockFlow
 {
     partial class Users
     {
@@ -49,160 +49,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
             this.SuspendLayout();
             // 
-<<<<<<< HEAD
-            // picCategories
-            // 
-            this.picCategories.Image = ((System.Drawing.Image)(resources.GetObject("picCategories.Image")));
-            this.picCategories.Location = new System.Drawing.Point(388, 10);
-            this.picCategories.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.picCategories.Name = "picCategories";
-            this.picCategories.Size = new System.Drawing.Size(40, 41);
-            this.picCategories.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCategories.TabIndex = 23;
-            this.picCategories.TabStop = false;
-            // 
-            // picOrders
-            // 
-            this.picOrders.Image = ((System.Drawing.Image)(resources.GetObject("picOrders.Image")));
-            this.picOrders.Location = new System.Drawing.Point(521, 10);
-            this.picOrders.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.picOrders.Name = "picOrders";
-            this.picOrders.Size = new System.Drawing.Size(40, 41);
-            this.picOrders.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picOrders.TabIndex = 22;
-            this.picOrders.TabStop = false;
-            this.picOrders.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // picUsers
-            // 
-            this.picUsers.Image = ((System.Drawing.Image)(resources.GetObject("picUsers.Image")));
-            this.picUsers.Location = new System.Drawing.Point(453, 10);
-            this.picUsers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.picUsers.Name = "picUsers";
-            this.picUsers.Size = new System.Drawing.Size(40, 41);
-            this.picUsers.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picUsers.TabIndex = 21;
-            this.picUsers.TabStop = false;
-            // 
-            // picCustomer
-            // 
-            this.picCustomer.Image = ((System.Drawing.Image)(resources.GetObject("picCustomer.Image")));
-            this.picCustomer.Location = new System.Drawing.Point(320, 10);
-            this.picCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.picCustomer.Name = "picCustomer";
-            this.picCustomer.Size = new System.Drawing.Size(40, 41);
-            this.picCustomer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCustomer.TabIndex = 20;
-            this.picCustomer.TabStop = false;
-            // 
-            // picProduct
-            // 
-            this.picProduct.Image = ((System.Drawing.Image)(resources.GetObject("picProduct.Image")));
-            this.picProduct.Location = new System.Drawing.Point(256, 10);
-            this.picProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.picProduct.Name = "picProduct";
-            this.picProduct.Size = new System.Drawing.Size(40, 41);
-            this.picProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picProduct.TabIndex = 19;
-            this.picProduct.TabStop = false;
-            // 
-            // btnOrders
-            // 
-            this.btnOrders.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrders.Location = new System.Drawing.Point(511, 49);
-            this.btnOrders.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnOrders.Name = "btnOrders";
-            this.btnOrders.Size = new System.Drawing.Size(62, 19);
-            this.btnOrders.TabIndex = 18;
-            this.btnOrders.Text = "Orders";
-            this.btnOrders.UseVisualStyleBackColor = true;
-            // 
-            // btnUsers
-            // 
-            this.btnUsers.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUsers.Location = new System.Drawing.Point(444, 49);
-            this.btnUsers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnUsers.Name = "btnUsers";
-            this.btnUsers.Size = new System.Drawing.Size(62, 19);
-            this.btnUsers.TabIndex = 17;
-            this.btnUsers.Text = "Users";
-            this.btnUsers.UseVisualStyleBackColor = true;
-            // 
-            // btnCategories
-            // 
-            this.btnCategories.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCategories.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCategories.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCategories.Location = new System.Drawing.Point(377, 49);
-            this.btnCategories.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnCategories.Name = "btnCategories";
-            this.btnCategories.Size = new System.Drawing.Size(62, 19);
-            this.btnCategories.TabIndex = 16;
-            this.btnCategories.Text = "Categories";
-            this.btnCategories.UseVisualStyleBackColor = true;
-            // 
-            // btnCustomer
-            // 
-            this.btnCustomer.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomer.Location = new System.Drawing.Point(310, 49);
-            this.btnCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Size = new System.Drawing.Size(62, 19);
-            this.btnCustomer.TabIndex = 15;
-            this.btnCustomer.Text = "Customer";
-            this.btnCustomer.UseVisualStyleBackColor = true;
-            // 
-            // btnProduct
-            // 
-            this.btnProduct.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProduct.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnProduct.Location = new System.Drawing.Point(244, 49);
-            this.btnProduct.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(62, 19);
-            this.btnProduct.TabIndex = 14;
-            this.btnProduct.Text = "Product";
-            this.btnProduct.UseVisualStyleBackColor = true;
-            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
-            // 
-=======
->>>>>>> 8fcd1dc7b07c3a45ae120119475aae31d22f23e3
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
-            this.lblTitle.Location = new System.Drawing.Point(88, 19);
-            this.lblTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-=======
             this.lblTitle.Location = new System.Drawing.Point(113, 53);
->>>>>>> 8fcd1dc7b07c3a45ae120119475aae31d22f23e3
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(92, 20);
             this.lblTitle.TabIndex = 24;
             this.lblTitle.Text = "StockFlow";
-<<<<<<< HEAD
-            // 
-            // picLogo
-            // 
-            this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
-            this.picLogo.Location = new System.Drawing.Point(9, -1);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(75, 68);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLogo.TabIndex = 25;
-            this.picLogo.TabStop = false;
-            this.picLogo.Click += new System.EventHandler(this.picLogo_Click_1);
-=======
             this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
->>>>>>> 8fcd1dc7b07c3a45ae120119475aae31d22f23e3
             // 
             // btnX
             // 
@@ -212,12 +68,7 @@
             this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX.ForeColor = System.Drawing.Color.White;
-<<<<<<< HEAD
-            this.btnX.Location = new System.Drawing.Point(576, -1);
-            this.btnX.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-=======
             this.btnX.Location = new System.Drawing.Point(764, -1);
->>>>>>> 8fcd1dc7b07c3a45ae120119475aae31d22f23e3
             this.btnX.Name = "btnX";
             this.btnX.Size = new System.Drawing.Size(17, 19);
             this.btnX.TabIndex = 26;
@@ -227,17 +78,6 @@
             // 
             // pnlFooter
             // 
-<<<<<<< HEAD
-            this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel2.Controls.Add(this.btn1);
-            this.panel2.Controls.Add(this.lblManageProduct);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 382);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(592, 32);
-            this.panel2.TabIndex = 27;
-=======
             this.pnlFooter.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.pnlFooter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlFooter.Controls.Add(this.btnAdd);
@@ -247,22 +87,9 @@
             this.pnlFooter.Name = "pnlFooter";
             this.pnlFooter.Size = new System.Drawing.Size(786, 40);
             this.pnlFooter.TabIndex = 27;
->>>>>>> 8fcd1dc7b07c3a45ae120119475aae31d22f23e3
             // 
             // btnAdd
             // 
-<<<<<<< HEAD
-            this.btn1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn1.BackColor = System.Drawing.Color.Aqua;
-            this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.Location = new System.Drawing.Point(567, 3);
-            this.btn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(23, 27);
-            this.btn1.TabIndex = 1;
-            this.btn1.Text = "+";
-            this.btn1.UseVisualStyleBackColor = false;
-=======
             this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAdd.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -275,7 +102,6 @@
             this.btnAdd.TabIndex = 1;
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
->>>>>>> 8fcd1dc7b07c3a45ae120119475aae31d22f23e3
             // 
             // lblManageProduct
             // 
@@ -286,7 +112,7 @@
             this.lblManageProduct.Name = "lblManageProduct";
             this.lblManageProduct.Size = new System.Drawing.Size(100, 13);
             this.lblManageProduct.TabIndex = 0;
-            this.lblManageProduct.Text = "Manage Product";
+            this.lblManageProduct.Text = "Manage Users";
             // 
             // dgvUsers
             // 
@@ -307,18 +133,6 @@
             this.colNo,
             this.colUser,
             this.colFullName});
-<<<<<<< HEAD
-            this.dgvProducts.EnableHeadersVisualStyles = false;
-            this.dgvProducts.Location = new System.Drawing.Point(0, 72);
-            this.dgvProducts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dgvProducts.Name = "dgvProducts";
-            this.dgvProducts.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgvProducts.RowHeadersWidth = 51;
-            this.dgvProducts.RowTemplate.Height = 24;
-            this.dgvProducts.Size = new System.Drawing.Size(589, 306);
-            this.dgvProducts.TabIndex = 28;
-            this.dgvProducts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProducts_CellContentClick);
-=======
             this.dgvUsers.EnableHeadersVisualStyles = false;
             this.dgvUsers.GridColor = System.Drawing.Color.White;
             this.dgvUsers.Location = new System.Drawing.Point(0, 108);
@@ -329,7 +143,6 @@
             this.dgvUsers.Size = new System.Drawing.Size(785, 361);
             this.dgvUsers.TabIndex = 28;
             this.dgvUsers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProducts_CellContentClick);
->>>>>>> 8fcd1dc7b07c3a45ae120119475aae31d22f23e3
             // 
             // colNo
             // 
@@ -425,28 +238,15 @@
             this.btnLogo.Size = new System.Drawing.Size(107, 113);
             this.btnLogo.TabIndex = 34;
             this.btnLogo.UseVisualStyleBackColor = false;
+            this.btnLogo.Click += new System.EventHandler(this.btnLogo_Click);
             // 
             // Users
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(592, 414);
-            this.Controls.Add(this.dgvProducts);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.btnX);
-            this.Controls.Add(this.lblTitle);
-            this.Controls.Add(this.picLogo);
-            this.Controls.Add(this.picCategories);
-            this.Controls.Add(this.picOrders);
-            this.Controls.Add(this.picUsers);
-            this.Controls.Add(this.picCustomer);
-            this.Controls.Add(this.picProduct);
-=======
             this.ClientSize = new System.Drawing.Size(786, 510);
             this.Controls.Add(this.btnLogo);
->>>>>>> 8fcd1dc7b07c3a45ae120119475aae31d22f23e3
             this.Controls.Add(this.btnOrders);
             this.Controls.Add(this.btnUsers);
             this.Controls.Add(this.btnCategories);
