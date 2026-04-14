@@ -52,7 +52,7 @@ namespace StockFlow
             this.pnlHeader.Controls.Add(this.btnX);
             this.pnlHeader.Controls.Add(this.lblUserModule);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlHeader.Enabled = false;
+            this.pnlHeader.Enabled = true;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(783, 49);

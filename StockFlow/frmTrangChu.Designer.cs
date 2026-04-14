@@ -51,9 +51,9 @@ namespace StockFlow
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.picBoxIcon);
-            this.panel1.Location = new System.Drawing.Point(3, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1856, 348);
+            this.panel1.Size = new System.Drawing.Size(1100, 160);
             this.panel1.TabIndex = 0;
             // 
             // btnDelete
@@ -61,7 +61,7 @@ namespace StockFlow
             this.btnDelete.FlatAppearance.BorderSize = 0;
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(1184, 3);
+            this.btnDelete.Location = new System.Drawing.Point(1030, 20);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(50, 50);
             this.btnDelete.TabIndex = 3;
@@ -70,9 +70,9 @@ namespace StockFlow
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 51F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(402, 203);
+            this.label2.Location = new System.Drawing.Point(200, 95);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(735, 91);
             this.label2.TabIndex = 2;
@@ -80,9 +80,9 @@ namespace StockFlow
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 51F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(402, 115);
+            this.label1.Location = new System.Drawing.Point(200, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(735, 75);
             this.label1.TabIndex = 1;
@@ -91,9 +91,9 @@ namespace StockFlow
             // picBoxIcon
             // 
             this.picBoxIcon.Image = ((System.Drawing.Image)(resources.GetObject("picBoxIcon.Image")));
-            this.picBoxIcon.Location = new System.Drawing.Point(0, 0);
+            this.picBoxIcon.Location = new System.Drawing.Point(20, 20);
             this.picBoxIcon.Name = "picBoxIcon";
-            this.picBoxIcon.Size = new System.Drawing.Size(306, 318);
+            this.picBoxIcon.Size = new System.Drawing.Size(120, 120);
             this.picBoxIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxIcon.TabIndex = 0;
             this.picBoxIcon.TabStop = false;
@@ -101,9 +101,9 @@ namespace StockFlow
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(181)))), ((int)(((byte)(234)))));
-            this.panel2.Location = new System.Drawing.Point(3, 954);
+            this.panel2.Location = new System.Drawing.Point(0, 650);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1856, 106);
+            this.panel2.Size = new System.Drawing.Size(1100, 50);
             this.panel2.TabIndex = 3;
             // 
             // btnProduct
@@ -111,7 +111,7 @@ namespace StockFlow
             this.btnProduct.FlatAppearance.BorderSize = 0;
             this.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProduct.Image = ((System.Drawing.Image)(resources.GetObject("btnProduct.Image")));
-            this.btnProduct.Location = new System.Drawing.Point(102, 390);
+            this.btnProduct.Location = new System.Drawing.Point(190, 230);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(169, 200);
             this.btnProduct.TabIndex = 22;
@@ -123,7 +123,7 @@ namespace StockFlow
             this.btnUsers.FlatAppearance.BorderSize = 0;
             this.btnUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsers.Image = ((System.Drawing.Image)(resources.GetObject("btnUsers.Image")));
-            this.btnUsers.Location = new System.Drawing.Point(1005, 720);
+            this.btnUsers.Location = new System.Drawing.Point(648, 440);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Size = new System.Drawing.Size(169, 169);
             this.btnUsers.TabIndex = 23;
@@ -135,7 +135,7 @@ namespace StockFlow
             this.btnCustomer.FlatAppearance.BorderSize = 0;
             this.btnCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomer.Image")));
-            this.btnCustomer.Location = new System.Drawing.Point(1031, 421);
+            this.btnCustomer.Location = new System.Drawing.Point(465, 230);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Size = new System.Drawing.Size(169, 179);
             this.btnCustomer.TabIndex = 24;
@@ -147,7 +147,7 @@ namespace StockFlow
             this.btnCategories.FlatAppearance.BorderSize = 0;
             this.btnCategories.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCategories.Image = ((System.Drawing.Image)(resources.GetObject("btnCategories.Image")));
-            this.btnCategories.Location = new System.Drawing.Point(102, 720);
+            this.btnCategories.Location = new System.Drawing.Point(281, 440);
             this.btnCategories.Name = "btnCategories";
             this.btnCategories.Size = new System.Drawing.Size(169, 193);
             this.btnCategories.TabIndex = 25;
@@ -159,7 +159,7 @@ namespace StockFlow
             this.btnOrders.FlatAppearance.BorderSize = 0;
             this.btnOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOrders.Image = ((System.Drawing.Image)(resources.GetObject("btnOrders.Image")));
-            this.btnOrders.Location = new System.Drawing.Point(580, 570);
+            this.btnOrders.Location = new System.Drawing.Point(740, 230);
             this.btnOrders.Name = "btnOrders";
             this.btnOrders.Size = new System.Drawing.Size(169, 169);
             this.btnOrders.TabIndex = 26;
@@ -171,7 +171,7 @@ namespace StockFlow
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(211)))), ((int)(((byte)(234)))));
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.ClientSize = new System.Drawing.Size(1249, 1061);
+            this.ClientSize = new System.Drawing.Size(1100, 700);
             this.Controls.Add(this.btnOrders);
             this.Controls.Add(this.btnCategories);
             this.Controls.Add(this.btnCustomer);

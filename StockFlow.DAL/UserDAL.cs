@@ -77,11 +77,13 @@ namespace StockFlow.DAL
             {
                 conn.Open();
 
-                string query = "INSERT INTO Users(UserName, Password, Role) VALUES(@u,@p,@r)";
+                string query = "INSERT INTO Users(UserName, FullName, Password, Phone, Role) VALUES(@u,@fn,@p,@ph,@r)";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@u", user.UserName);
+                    cmd.Parameters.AddWithValue("@fn", string.IsNullOrEmpty(user.FullName) ? "" : user.FullName);
                     cmd.Parameters.AddWithValue("@p", user.Password);
+                    cmd.Parameters.AddWithValue("@ph", string.IsNullOrEmpty(user.Phone) ? "" : user.Phone);
                     cmd.Parameters.AddWithValue("@r", user.Role);
 
                     return cmd.ExecuteNonQuery() > 0;
@@ -108,11 +110,13 @@ namespace StockFlow.DAL
             {
                 conn.Open();
 
-                string query = "UPDATE Users SET Password=@p, Role=@r WHERE UserName=@u";
+                string query = "UPDATE Users SET FullName=@fn, Password=@p, Phone=@ph, Role=@r WHERE UserName=@u";
                 SqlCommand cmd = new SqlCommand(query, conn);
 
                 cmd.Parameters.AddWithValue("@u", user.UserName);
+                cmd.Parameters.AddWithValue("@fn", string.IsNullOrEmpty(user.FullName) ? "" : user.FullName);
                 cmd.Parameters.AddWithValue("@p", user.Password);
+                cmd.Parameters.AddWithValue("@ph", string.IsNullOrEmpty(user.Phone) ? "" : user.Phone);
                 cmd.Parameters.AddWithValue("@r", user.Role);
 
                 return cmd.ExecuteNonQuery() > 0;

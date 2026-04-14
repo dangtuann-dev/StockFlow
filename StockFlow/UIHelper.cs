@@ -1,11 +1,32 @@
 using System.Drawing;
 using System.Windows.Forms;
 using System;
+using System.Runtime.InteropServices;
 
 namespace StockFlow
 {
     public static class UIHelper
     {
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+
+        [DllImportAttribute("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        [DllImportAttribute("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+        public static void MakeDraggable(Control control, Form form)
+        {
+            control.MouseDown += (sender, e) =>
+            {
+                if (e.Button == MouseButtons.Left)
+                {
+                    ReleaseCapture();
+                    SendMessage(form.Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+                }
+            };
+        }
+
         public static void StandardizeForm(Form form)
         {
             // Các form chính đưa về kích thước 1100x700.
@@ -32,6 +53,15 @@ namespace StockFlow
                 form.Height = targetHeight;
             }
             form.StartPosition = FormStartPosition.CenterScreen;
+
+            MakeDraggable(form, form);
+            foreach (Control c in form.Controls)
+            {
+                if (c is Panel && (c.Name == "pnlHeader" || c.Name == "pnlTitleBar" || c.Name == "panel1"))
+                {
+                    MakeDraggable(c, form);
+                }
+            }
         }
 
         private static void ScaleControls(Control parent, float scale)

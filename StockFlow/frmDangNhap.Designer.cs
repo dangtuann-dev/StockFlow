@@ -135,6 +135,7 @@ namespace StockFlow
             this.txtPassword.TabIndex = 5;
             this.txtPassword.TabStop = false;
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged_2);
+            this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_KeyDown);
             // 
             // txtUserName
             // 
@@ -147,6 +148,7 @@ namespace StockFlow
             this.txtUserName.TabIndex = 4;
             this.txtUserName.TabStop = false;
             this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
+            this.txtUserName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_KeyDown);
             // 
             // lblPassword
             // 

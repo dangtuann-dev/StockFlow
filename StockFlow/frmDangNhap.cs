@@ -1,4 +1,4 @@
-﻿using StockFlow.BLL;
+using StockFlow.BLL;
 using StockFlow.DTO;
 using System;
 using System.Collections.Generic;
@@ -54,6 +54,15 @@ namespace StockFlow
         private void btnLogin_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txt_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                btnLogin.PerformClick();
+            }
         }
 
         private void btnSignUp_Click(object sender, EventArgs e)

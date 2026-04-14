@@ -52,7 +52,7 @@ namespace StockFlow
             this.pnlHeader.Controls.Add(this.btnX);
             this.pnlHeader.Controls.Add(this.lblProductModule);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlHeader.Enabled = false;
+            this.pnlHeader.Enabled = true;
             this.pnlHeader.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Name = "pnlHeader";

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StockFlow.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06d6e457894433d87ffc5fd1ee6c170603bc2ca5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+236d4c765837fd7787ab7f2433c54e9bfa552672")]
 [assembly: System.Reflection.AssemblyProductAttribute("StockFlow.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StockFlow.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
